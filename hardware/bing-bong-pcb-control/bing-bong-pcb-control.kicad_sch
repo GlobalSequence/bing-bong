@@ -1,0 +1,5002 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d0f7371d-16be-4e34-a1a4-0b7f6d226688")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x08_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Pin"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack2_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer_US"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 32.004 72.136)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d12e2b4-3025-4efe-88b4-9d0d3efd16f2")
+	)
+	(junction
+		(at 52.578 69.596)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a51553-2b8a-477c-948a-469b094f4808")
+	)
+	(junction
+		(at 32.004 74.676)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b342e7a-1de1-42ce-b56a-e2500d6e74d3")
+	)
+	(junction
+		(at 52.578 75.946)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9efdda13-a539-44fb-9eb3-7148de753642")
+	)
+	(no_connect
+		(at 97.282 96.012)
+		(uuid "07d9e8c5-3e51-4b08-868a-811ece11e161")
+	)
+	(no_connect
+		(at 258.572 82.804)
+		(uuid "20bbc604-fdb7-457d-ae1e-7fc30ce0a8ce")
+	)
+	(no_connect
+		(at 97.282 74.422)
+		(uuid "2d814035-eed5-416c-8355-b9600138375c")
+	)
+	(no_connect
+		(at 97.028 52.832)
+		(uuid "3df3d7ed-50d3-4842-a0be-cdb952a0f4bd")
+	)
+	(no_connect
+		(at 97.282 116.84)
+		(uuid "d8d093db-4bc9-494a-b8c6-de7da2866901")
+	)
+	(no_connect
+		(at 146.558 160.782)
+		(uuid "ec53d38c-9ce9-4b9c-881c-ec14b5273c28")
+	)
+	(wire
+		(pts
+			(xy 97.028 55.372) (xy 101.092 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044dd775-5d3f-478b-9256-04d79988f76a")
+	)
+	(wire
+		(pts
+			(xy 202.692 119.38) (xy 202.692 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f199e87-fe14-4cc9-8e01-8640d80e5675")
+	)
+	(wire
+		(pts
+			(xy 97.282 121.92) (xy 97.282 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197721ba-1d72-4ce6-bec6-504bf9380d7a")
+	)
+	(wire
+		(pts
+			(xy 256.032 87.884) (xy 258.572 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0ab578-b0cf-40c2-a316-cd000ff1d04c")
+	)
+	(wire
+		(pts
+			(xy 97.282 79.502) (xy 97.282 82.042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2b1731-b36e-49ed-b33f-1883ad248b88")
+	)
+	(wire
+		(pts
+			(xy 97.282 101.092) (xy 97.282 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e195ee-000c-4f01-ac0d-6cfedfe934ca")
+	)
+	(wire
+		(pts
+			(xy 258.572 85.344) (xy 256.032 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6bbae1-28d5-40cd-b624-04e055da83e2")
+	)
+	(wire
+		(pts
+			(xy 202.692 128.778) (xy 202.692 130.302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cffed1c-a9ed-4e89-8bc3-8cc62f9282ac")
+	)
+	(wire
+		(pts
+			(xy 52.578 75.946) (xy 52.578 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2689bd-192c-4312-8c95-3bd3de5bca10")
+	)
+	(wire
+		(pts
+			(xy 202.692 69.088) (xy 202.692 70.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52363b00-8a4d-4468-bfe9-3dc6a5bcb975")
+	)
+	(wire
+		(pts
+			(xy 155.702 101.346) (xy 152.146 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5609c643-5e5a-4dda-aeaa-e1a0e173da85")
+	)
+	(wire
+		(pts
+			(xy 32.004 77.216) (xy 32.004 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1a644d-338d-4490-b498-ea9a9dea935e")
+	)
+	(wire
+		(pts
+			(xy 149.098 167.64) (xy 149.098 165.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcc167b-3370-4825-92ad-d3f9d4e945b4")
+	)
+	(wire
+		(pts
+			(xy 155.702 104.902) (xy 155.702 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff911cd-2614-41bb-b209-09e02b6cd0f2")
+	)
+	(wire
+		(pts
+			(xy 256.032 89.662) (xy 256.032 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77314780-89e4-4cbc-ade0-d86ec876057f")
+	)
+	(wire
+		(pts
+			(xy 52.578 66.548) (xy 52.578 69.596)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85adcce1-32b0-4218-ad00-b9cfa719787a")
+	)
+	(wire
+		(pts
+			(xy 32.004 72.136) (xy 52.578 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccdd313-4ccd-4f96-ba1f-fe9caa0618a2")
+	)
+	(wire
+		(pts
+			(xy 97.028 57.912) (xy 97.028 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb18401-4961-4f8c-b51e-81e8ef8e6212")
+	)
+	(wire
+		(pts
+			(xy 97.282 98.552) (xy 101.346 98.552)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93713169-b1a0-4f5b-9f04-886ce4dca2ed")
+	)
+	(wire
+		(pts
+			(xy 202.692 94.742) (xy 202.692 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b7ef1a-9f54-497b-8202-cb4e33c014bc")
+	)
+	(wire
+		(pts
+			(xy 202.692 104.14) (xy 202.692 105.664)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9504e159-96d6-41a2-95cb-2e34f1514e48")
+	)
+	(wire
+		(pts
+			(xy 210.058 49.784) (xy 206.502 49.784)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96932ef0-eb18-4d15-af43-7ce2fd239916")
+	)
+	(wire
+		(pts
+			(xy 32.004 74.676) (xy 32.004 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9beb9f0b-65bb-4fc1-9f45-4d4e83b927bf")
+	)
+	(wire
+		(pts
+			(xy 210.058 100.33) (xy 206.502 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9fcf05-6455-4d45-98cb-1bb1de9aaac2")
+	)
+	(wire
+		(pts
+			(xy 158.496 44.196) (xy 154.178 44.196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0590b95-9ae0-4267-b044-a3583f1d7c5d")
+	)
+	(wire
+		(pts
+			(xy 210.058 124.968) (xy 206.502 124.968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dd1eea-b3a5-44c2-bdae-f4ee76c7200e")
+	)
+	(wire
+		(pts
+			(xy 146.558 163.322) (xy 149.098 163.322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a55e6a-b8e3-4511-8c15-bc01c4944127")
+	)
+	(wire
+		(pts
+			(xy 52.578 69.596) (xy 32.004 69.596)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96f3789-f973-4e0a-b28e-260795ef1154")
+	)
+	(wire
+		(pts
+			(xy 158.496 39.116) (xy 154.178 39.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1ed681-d8e0-4201-a5b6-0116ebe76fb7")
+	)
+	(wire
+		(pts
+			(xy 202.692 53.594) (xy 202.692 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea4e643-dba2-4a73-b0b2-31eca4a8a7bf")
+	)
+	(wire
+		(pts
+			(xy 52.578 75.946) (xy 52.578 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba222b1b-4f44-47d3-b7f8-9d94d15b0944")
+	)
+	(wire
+		(pts
+			(xy 210.058 74.676) (xy 206.502 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafc055a-e413-49a3-aa74-c7b3d108e054")
+	)
+	(wire
+		(pts
+			(xy 202.692 78.486) (xy 202.692 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8835b3-63b4-440b-8bd6-66f78c3f892c")
+	)
+	(wire
+		(pts
+			(xy 149.098 165.862) (xy 146.558 165.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce06589f-86b7-41b7-947d-639e02871bc8")
+	)
+	(wire
+		(pts
+			(xy 158.496 36.322) (xy 158.496 39.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dc0938-0bdf-43c6-82bb-afdc9fcb3dfe")
+	)
+	(wire
+		(pts
+			(xy 158.496 47.244) (xy 158.496 44.196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d751ac71-af69-42af-b5c3-cf824f7e1ba5")
+	)
+	(wire
+		(pts
+			(xy 202.692 44.196) (xy 202.692 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9060175-a5b1-4d25-a82e-aea2f3ef4a17")
+	)
+	(wire
+		(pts
+			(xy 97.282 76.962) (xy 101.346 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaec3ed4-883a-4459-9774-f269de0a76ae")
+	)
+	(wire
+		(pts
+			(xy 97.282 119.38) (xy 101.346 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde312eb-fd00-4f48-9a03-360a5f7a620c")
+	)
+	(rectangle
+		(start 119.126 76.962)
+		(end 175.006 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06792822-c0f0-44ea-8bcd-04e13afd65d7)
+	)
+	(rectangle
+		(start 119.126 13.462)
+		(end 175.006 75.184)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d2e8bef-9874-425c-82d1-3098da121672)
+	)
+	(rectangle
+		(start 13.716 13.462)
+		(end 72.136 195.834)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 634a9060-c8a9-4f12-9c47-810682cc9734)
+	)
+	(rectangle
+		(start 177.038 13.462)
+		(end 231.648 164.338)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df7bb00a-5480-474a-b112-ac7eb1ce5bd0)
+	)
+	(rectangle
+		(start 119.126 133.858)
+		(end 175.006 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f19c8c10-a279-453b-8271-5cf787081aeb)
+	)
+	(rectangle
+		(start 74.422 13.462)
+		(end 117.094 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbfaccf4-fed8-4beb-9bff-3f9b51b27a2d)
+	)
+	(rectangle
+		(start 233.68 13.462)
+		(end 283.972 164.338)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc4dcf62-86e0-4c6c-afb0-9d2b2534c9cf)
+	)
+	(text "Audio Output"
+		(exclude_from_sim no)
+		(at 236.728 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a58219d-cf83-4c92-badf-ba0343eacb56")
+	)
+	(text "Pin Headers"
+		(exclude_from_sim no)
+		(at 16.764 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f9d7e82-9c63-4a20-8ee7-a8dd00fa0f10")
+	)
+	(text "CV Inputs"
+		(exclude_from_sim no)
+		(at 77.216 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76f84d21-c160-47c8-9d22-90145d63d6eb")
+	)
+	(text "Manual Trigger"
+		(exclude_from_sim no)
+		(at 121.92 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a41c9a42-b891-46a9-99e8-36e783a14c74")
+	)
+	(text "External Trigger"
+		(exclude_from_sim no)
+		(at 121.92 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8130838-46ec-4fdc-b64b-c7c0ace10090")
+	)
+	(text "Control Pots"
+		(exclude_from_sim no)
+		(at 180.34 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4702589-bfa9-406b-990e-a3103a2a8d72")
+	)
+	(text "Bing Bong Switch"
+		(exclude_from_sim no)
+		(at 121.92 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d78d15ae-5d34-4af9-bb69-a63faedeacfb")
+	)
+	(global_label "POT_4"
+		(shape input)
+		(at 32.004 123.698 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05bec264-e9ec-4daa-8c4d-dc4379d25cbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7344 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape input)
+		(at 32.004 79.756 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "072af4d9-ab3d-49b1-b9fa-11e8cc9c00d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2616 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_1"
+		(shape input)
+		(at 32.004 110.998 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "208a835e-8770-4363-b85f-099ec4df06ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5249 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape output)
+		(at 141.986 101.346 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21b3151c-e1ff-47d1-ba7d-121c8e85658b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.9574 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_IN"
+		(shape input)
+		(at 32.004 84.836 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23accdde-278a-4393-b101-800559a2b73e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0045 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_OUT"
+		(shape input)
+		(at 256.032 85.344 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d7103e0-8c0d-4e65-be3a-1f8eea2a431f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.8262 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_2"
+		(shape output)
+		(at 210.058 74.676 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32b60704-135b-46f5-9f18-e81aeb1c4682")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.7884 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_4"
+		(shape output)
+		(at 101.346 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "424fa228-9695-49ec-8c60-558569d994fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8669 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_1"
+		(shape output)
+		(at 210.058 49.784 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56f2e092-7907-4d48-aaf2-e05bcae0ba8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.7884 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_3"
+		(shape output)
+		(at 210.058 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "574f0a16-7104-43cf-bb9e-cb640eb43ffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.7884 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_4"
+		(shape input)
+		(at 32.004 126.238 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "595c8521-f479-40fb-a40c-d3b45f38264f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5249 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_IN"
+		(shape output)
+		(at 149.098 163.322 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c1b1989-0b1f-4136-bf5c-8cf231bb5457")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.0985 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_2"
+		(shape output)
+		(at 101.346 76.962 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ce582c6-9261-407b-a046-41f2f38d8548")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8669 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_1"
+		(shape output)
+		(at 101.092 55.372 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63e9bcb2-b48e-473b-bfcf-814ae1344b3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.6129 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_3"
+		(shape input)
+		(at 32.004 121.158 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6480a464-c443-4c96-ba7a-aceb4c9736b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5249 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_3"
+		(shape output)
+		(at 101.346 98.552 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7581ccf8-4083-43f6-9b0d-f9c3c6f6867c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.8669 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_2"
+		(shape input)
+		(at 32.004 116.078 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ab5c419-b7c2-441a-a428-9c242ec85a4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5249 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape output)
+		(at 144.018 41.656 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7caac767-b07a-434a-b731-4e3f195f97b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7604 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_4"
+		(shape output)
+		(at 210.058 124.968 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "886da281-3fa5-4bb4-995b-6f2a43d449a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.7884 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_1"
+		(shape input)
+		(at 32.004 108.458 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "901eeacf-30e5-41ed-86ac-1395ee669389")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7344 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_3"
+		(shape input)
+		(at 32.004 118.618 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0e9f5ac-f326-4f00-b39e-330b9a1f18f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7344 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_OUT"
+		(shape output)
+		(at 32.004 87.376 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd45c3d-38ff-4f30-88d4-9976679335fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2098 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_2"
+		(shape input)
+		(at 32.004 113.538 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c011ad92-a91e-4610-9a32-8f3d86e5d4da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7344 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape input)
+		(at 32.004 82.296 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db93cb76-9202-4b01-947d-73e5236342b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.0326 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 92.202 119.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "029887d0-2adf-4260-b599-100003f99997")
+		(property "Reference" "J5"
+			(at 92.456 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 92.456 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 92.202 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.202 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.202 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "4bb22183-786e-41bc-8059-3ffc76b42404")
+		)
+		(pin "T"
+			(uuid "6bf7975f-4f2c-471f-b6ad-4d20d5f356a8")
+		)
+		(pin "S"
+			(uuid "fcfb065e-2644-412b-ad13-fbb7ab9fe128")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.032 89.662 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036f4a1d-3fc8-49d3-be6e-d9bb2bf3a4c4")
+		(property "Reference" "#PWR01"
+			(at 256.032 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.032 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.032 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.032 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.032 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7635607-6e22-4d9a-a237-047fe482a3a3")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.496 47.244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063dbf3f-3c41-448b-bf97-4e9128db8c96")
+		(property "Reference" "#PWR07"
+			(at 158.496 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.496 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.496 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.496 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.496 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29ffe8e1-8b18-4dda-9cb4-daa81c9f119e")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.098 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1339c3fd-86ef-4cc6-94d9-1be821e5bb31")
+		(property "Reference" "#PWR09"
+			(at 149.098 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.098 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.098 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.098 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf03fcce-d9ad-45dc-95f9-ed425d8c3f28")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.282 103.632 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19777922-e5b2-495f-ac9d-e3743555d382")
+		(property "Reference" "#PWR04"
+			(at 97.282 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.282 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.282 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "333cf95a-3b6f-4bf6-b469-9d4fdf4f8e92")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.578 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3354be-37d9-4891-9150-57e7cd9fc569")
+		(property "Reference" "#PWR047"
+			(at 52.578 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.578 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.578 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.578 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff9396d4-239d-4103-841a-0743b9d71331")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 149.098 41.656 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b3a549c-9407-400b-b2d1-b246cde9076b")
+		(property "Reference" "SW2"
+			(at 149.098 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 149.098 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPDT SPST Toggle Switch THIS ONE:SW_Toggle_Blue_wSlots"
+			(at 149.098 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dcbc68a-cae0-4db7-a756-1ba8319033b9")
+		)
+		(pin "2"
+			(uuid "4a0dfc3f-3bfb-4626-828e-af485090a015")
+		)
+		(pin "3"
+			(uuid "0e73d580-f41a-460d-adc3-e951d2596d54")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 92.202 98.552 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36a04448-ae41-4bfb-89cd-11666ba112bb")
+		(property "Reference" "J4"
+			(at 92.456 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 92.456 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 92.202 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.202 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.202 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "86466ec1-60f7-412a-9f4a-b29ed675ca9f")
+		)
+		(pin "T"
+			(uuid "edfd6c87-89b0-478c-865a-b8c414e2f9d8")
+		)
+		(pin "S"
+			(uuid "dcb88c1f-b350-4654-bfe3-f9cd1c3cb0a0")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 26.924 77.216 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba3043a-2174-4e89-a28e-d4d132fac159")
+		(property "Reference" "J8"
+			(at 27.559 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 27.559 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 26.924 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.924 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.924 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "365604ff-7582-460d-a9fd-c06e79cce0d0")
+		)
+		(pin "5"
+			(uuid "05b234d8-27b6-4113-98ba-88ab81eba9b1")
+		)
+		(pin "2"
+			(uuid "7704acb5-02ff-4fc7-988d-f61ec99f9355")
+		)
+		(pin "3"
+			(uuid "eb279a4c-c648-4ae9-ac72-51b7a3da620e")
+		)
+		(pin "4"
+			(uuid "cccf7175-c604-4166-b7de-c6518ad622db")
+		)
+		(pin "1"
+			(uuid "c1f45de7-458e-480b-91fc-86350adf8a14")
+		)
+		(pin "6"
+			(uuid "ce17c931-8c19-45f0-8d19-542030af3f81")
+		)
+		(pin "8"
+			(uuid "5055ad68-3ee8-4d23-93ba-ffd8a8d19b45")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 155.702 104.902 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40767323-07ec-41ed-a8a5-5b104723ba16")
+		(property "Reference" "#PWR06"
+			(at 155.702 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.702 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.702 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 155.702 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672a5815-8eb6-4522-923c-1ef1e8ba4d1e")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 147.066 101.346 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f921c74-68a1-4f4d-bee6-07a620c1bd87")
+		(property "Reference" "SW1"
+			(at 147.066 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 147.066 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.066 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.066 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db36f055-e7f9-4a28-9686-773949f8b376")
+		)
+		(pin "2"
+			(uuid "6b0951b0-55e5-40cc-aa89-68e4891b11b2")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 202.692 124.968 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5168d4d2-7c30-455d-b9d5-4185dee4ee0d")
+		(property "Reference" "RV7"
+			(at 200.152 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.152 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 202.692 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.692 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffcf31a3-6373-4e3c-ade6-dc1842acf31f")
+		)
+		(pin "2"
+			(uuid "0670facc-464e-44d3-b0ba-b927aec892d2")
+		)
+		(pin "3"
+			(uuid "10633eeb-b78d-4cd3-8ac9-8fbc6fe9fbb0")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.578 66.548 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a19a19f-42ea-46ae-9bb5-13cfbd936d55")
+		(property "Reference" "#PWR044"
+			(at 52.578 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.578 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.578 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.578 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6336b1e8-4aad-4c1f-8a88-fbae6b2653d6")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 202.692 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607f5a04-bc31-460a-933a-6fde281eb2e0")
+		(property "Reference" "#PWR014"
+			(at 202.692 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 202.692 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "936c40b1-77ac-463a-957e-b40e02774b24")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 141.478 163.322 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "615d9e85-23e4-4364-82f0-11f577b53a16")
+		(property "Reference" "J6"
+			(at 141.478 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 141.478 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 141.478 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.478 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.478 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "786711a3-4f53-4ec0-93af-45abcb6603a1")
+		)
+		(pin "T"
+			(uuid "a7d3a1dd-ab9e-431e-bf5e-4e999a5904d6")
+		)
+		(pin "S"
+			(uuid "5393acd2-beb7-4651-a561-edcfc1bb156b")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 202.692 44.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66583115-311b-4f30-9f42-dba0c8fc3633")
+		(property "Reference" "#PWR012"
+			(at 202.692 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.518 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a13cc005-b6d3-47f0-8fea-ba329ab93cda")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 202.692 69.088 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ad95d5b-2a99-497c-a32e-f57b1a5b7ab0")
+		(property "Reference" "#PWR013"
+			(at 202.692 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.518 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68973b00-b5ee-4674-a014-ccfa8f437b26")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.496 36.322 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e812e90-94f1-4f47-addf-0bf146692eed")
+		(property "Reference" "#PWR08"
+			(at 158.496 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.496 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.496 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.496 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.496 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3ddf77-f91b-4eb1-b18e-fd3334660c0e")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 202.692 105.664 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77aeff0b-6fa4-4a86-a52b-0de4dda7550f")
+		(property "Reference" "#PWR029"
+			(at 202.692 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 202.692 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd4f8a7-8974-4373-a4e7-685fdfb4bd5f")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.282 82.042 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0a8a43-e198-4a35-addc-b11859c20f0a")
+		(property "Reference" "#PWR03"
+			(at 97.282 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.282 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.282 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ea69d29-7f16-4a79-832a-2b53c4fb67e0")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 26.924 116.078 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e72cdb-68c1-4100-8cbc-db9158f5adb6")
+		(property "Reference" "J9"
+			(at 27.559 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 27.559 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 26.924 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.924 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.924 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e1838eb8-9ae7-4ed0-84a4-49e33da2d981")
+		)
+		(pin "5"
+			(uuid "87c66347-e71c-46f0-9e09-722953432c25")
+		)
+		(pin "2"
+			(uuid "9603ed4b-d5ee-4bc3-bdf0-85aba067f261")
+		)
+		(pin "3"
+			(uuid "c8e2dc33-8cfa-4c07-bc16-3230c0578a16")
+		)
+		(pin "4"
+			(uuid "b21e151d-bdf7-43b2-9897-82438a1fc607")
+		)
+		(pin "1"
+			(uuid "0cfe1585-ed9d-4851-b898-b9d205ed7c86")
+		)
+		(pin "6"
+			(uuid "e684b97d-93e0-419c-a26b-649d91065c84")
+		)
+		(pin "8"
+			(uuid "cee765ba-585a-41b5-ac7b-ea2171aa865c")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.578 69.596 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e70aa89-d39b-418a-a99c-a8715b965042")
+		(property "Reference" "#FLG01"
+			(at 54.483 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 56.642 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.578 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.578 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21784ff6-b91b-4394-a850-04530e4fb31c")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 263.652 85.344 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b48b8799-5779-4501-a392-940d59776647")
+		(property "Reference" "J1"
+			(at 263.652 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 263.652 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 263.652 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 263.652 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 263.652 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "7573d66e-15cf-4ce5-83d8-3c2058fca212")
+		)
+		(pin "T"
+			(uuid "e8b6d7bc-92af-4806-b7d7-cf0f62c7a53d")
+		)
+		(pin "S"
+			(uuid "fa3f8463-9f5a-4de1-be91-7b021333107a")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.578 75.946 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb6bddbd-8186-45b2-8ee1-e4345c72c4f3")
+		(property "Reference" "#FLG02"
+			(at 54.483 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 56.642 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.578 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.578 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f3e91f1-6bec-4043-a1c6-45825d97949c")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.282 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c147587f-f62b-4350-88b9-26bd4bb36e13")
+		(property "Reference" "#PWR05"
+			(at 97.282 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.282 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.282 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bd773e5-18fd-4442-9d41-07c95947aa22")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.028 60.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c565b27d-da6c-4d54-87a4-ea0821923a05")
+		(property "Reference" "#PWR02"
+			(at 97.028 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.028 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.028 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.028 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.028 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9ececec-bc79-4c25-8244-e587b4df2859")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 202.692 94.742 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d643013e-2459-4af2-bbde-c0c5117b1f23")
+		(property "Reference" "#PWR015"
+			(at 202.692 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.518 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdcd17f-d2df-4852-96d6-c3f9d2855a37")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 202.692 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e33e6cf8-533e-45a6-adb3-ccfafb294532")
+		(property "Reference" "#PWR045"
+			(at 202.692 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.518 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87cfe2f9-c953-4e4a-a2d4-ec831ff2cf4f")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 202.692 55.118 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e490370d-3bcc-46f4-8e40-3b4e260964e3")
+		(property "Reference" "#PWR028"
+			(at 202.692 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 202.692 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3594b231-7412-44ee-a9a1-3c6aab72a2e8")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 202.692 74.676 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e972200e-cca0-464a-9a3b-f9ed71e490b6")
+		(property "Reference" "RV5"
+			(at 200.152 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.152 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 202.692 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.692 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0792b596-42c1-4c4c-a773-c68c933f0c5d")
+		)
+		(pin "2"
+			(uuid "5063d716-fab3-4a8e-93b9-50a27799b8c4")
+		)
+		(pin "3"
+			(uuid "1eb47a18-7f9b-4cce-8d57-c21875ba1fb2")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 92.202 76.962 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f493ed2c-6139-4ed8-9fb2-f9edca4748e2")
+		(property "Reference" "J3"
+			(at 92.456 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 92.456 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 92.202 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.202 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.202 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "f2b4b9e1-827c-46df-a857-2daecb6ef25a")
+		)
+		(pin "T"
+			(uuid "e65fc468-d75f-4318-8e8d-4b841d4230a1")
+		)
+		(pin "S"
+			(uuid "738e83ee-fd6b-4ca5-b72d-47b2e969e1bf")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 202.692 130.302 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66fc72e-6a2b-4027-b99f-f1e8ad3e7964")
+		(property "Reference" "#PWR046"
+			(at 202.692 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 202.692 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.692 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a1f192-d758-4fb8-b6f4-1e1c606cd4a7")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 91.948 55.372 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f67664e1-9910-42de-9fd1-6b74441e3dbd")
+		(property "Reference" "J2"
+			(at 92.202 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 92.202 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 91.948 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.948 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.948 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "b7ab0aa7-6c8b-4ab0-9544-6b38ce2e3096")
+		)
+		(pin "T"
+			(uuid "cbfe4411-9461-4d58-a2b5-7af71319b7ff")
+		)
+		(pin "S"
+			(uuid "84f4df78-d13a-4a75-85a5-5221327eeda7")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 202.692 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71f996b-81a4-4f13-bd50-e6439e465934")
+		(property "Reference" "RV6"
+			(at 200.152 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.152 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 202.692 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.692 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50c23de-18d5-40e5-8d02-9ec187d4370e")
+		)
+		(pin "2"
+			(uuid "2ee1d408-b759-4612-8d96-7a6665814b1e")
+		)
+		(pin "3"
+			(uuid "bbc3a3ef-0e1b-4f01-b8ab-d3b26d78e06f")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 202.692 49.784 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc16e4c6-b42e-4407-be33-cb08f674e5f3")
+		(property "Reference" "RV1"
+			(at 200.152 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.152 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 202.692 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.692 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b68069b6-5c20-4f01-9201-3bf9abc4de4d")
+		)
+		(pin "2"
+			(uuid "16aa95b6-be19-43e1-8518-2e3f22bd87f6")
+		)
+		(pin "3"
+			(uuid "4f6a4b98-2d95-4abd-9ad2-da28a08786d0")
+		)
+		(instances
+			(project "2024.10.10 Bing Bong Drum Module"
+				(path "/d0f7371d-16be-4e34-a1a4-0b7f6d226688"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
