@@ -1,0 +1,3 @@
+Add the Seeed Studio board manager to the Arduino IDE Preferences:
+
+https://files.seeedstudio.com/arduino/package_renesas_1.2.0_index.json
