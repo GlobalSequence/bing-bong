@@ -10,9 +10,9 @@
 #define INT32_MAX 0x7FFFFFFFL
 
 #define SINE2TSIZE 4096
-extern const int32_t sine2t[SINE2TSIZE + 1];
-// extern int32_t sine2t[SINE2TSIZE + 1];
 #define PITCHTSIZE 257
+
+extern const int32_t sine2t[SINE2TSIZE + 1];
 extern uint32_t pitcht[PITCHTSIZE];
 
 #ifdef __cplusplus

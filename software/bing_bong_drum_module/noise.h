@@ -23,6 +23,7 @@ uint32_t xorShift128(struct xorShiftVariables* var) {
     return var->w = var->w ^ (var->w >> 19) ^ t ^ (t >> 8);
 }
 
+// C++ Version, missing some of the addaptations above
 // /* These state variables must be initialized so that they are not all zero. */
 // uint32_t x, y, z, w;
 

@@ -1,19 +1,15 @@
 #include <AGTimerR4.h>
 #include "ra4m1_dac_setup.h"
 #include "analog_control.h"
-
-// #include "responsive_analog_read.h"
 #include "bing_bong_math.h"
 #include "envelope.h"
 #include "noise.h"
 #include "pm_osc.h"
 #include "svf.h"        
 
+// buffer defines
 #define BUF_LEN     (128)
 #define NUM_BUF     (2)
-// #define WAVE_FREQ_HZ    (440.0f)
-// #define TWOPI           (6.28318531f)
-// #define PHASE_INC       (TWOPI * WAVE_FREQ_HZ / SAMPLE_RATE)
 
 // pin defines
 #define NUMBER_OF_ANALOG_INPUTS 4
@@ -32,7 +28,7 @@
 // PM Oscillator Defines
 #define NUMBER_OF_PM_OSCS 3
 
-// Output buffer
+// output buffer
 static volatile uint32_t out_buf[NUM_BUF][BUF_LEN] __attribute__((aligned(256)));
 
 // SVF Variables
@@ -44,7 +40,7 @@ struct PM_Osc_Variables pm_var[NUMBER_OF_PM_OSCS];
 uint32_t pm_env_amt_pitch;
 uint32_t pm_env_amt_pm;
 
-// Envelope Params
+// envelope Params
 struct Env_Params noise_env;
 struct Env_Params pm_env;
 
@@ -56,12 +52,12 @@ void dacUpdate();
 volatile bool buf_index;
 bool last_buf_index;
 
-// Trigger
+// trigger
 bool last_push_state;
 volatile bool trig;
 void trigIRQ() {trig = true;}
 
-// Analog input lock
+// analog input lock
 LockPotParams l_pot[NUMBER_OF_ANALOG_INPUTS];
 
 void setup() {
@@ -164,7 +160,7 @@ void pmDrum(int c_param, int m_param, int p_param, uint32_t env_level) {
     int32_t pm_osc_carrier_freq = controlValBipolar(c_param);
     int32_t modulator_param_val = c_param + m_param - 1152;
     int32_t pm_osc_modulator_one_freq = controlValBipolar(modulator_param_val);
-    // modulator_two frequency is an octave up from modulator 1, 
+    // modulator_two base frequency is an octave up from modulator 1, 
     // which is 12 << 5 (7 bit freq table to 12 bit analog value);
     int32_t pm_osc_modulator_two_freq = controlValBipolar(modulator_param_val + 384);
     PMOscUpdateFreq(pm_osc_carrier_freq, &pm_var[0]);
@@ -206,7 +202,6 @@ void dacUpdate() {
     buf_sample_index = buf_counter - BUF_LEN;
     // digitalWrite(9, LOW);
   }
-  // buf_counter = buf_counter >= BUF_LEN * 2? 0 : buf_counter + 1;
   buf_counter++;
   *DAC12_DADR0 = out_buf[buf_index][buf_sample_index];
 }

@@ -2,9 +2,9 @@
 #define ANALOG_CONTROL_H
 
 #include <stdio.h>
-// #include "driver/adc.h"
 #define ADC_DEFAULT_RESOLUTION 12
 // Define the analog resolution here 
+// We choose 8 bits for a value 0-255
 #define ADC_SCALED_RESOLUTION 8
 #define Q28 1<<27
 #define ANALOG_INPUT_TRUNCATION_BITS (ADC_DEFAULT_RESOLUTION - ADC_SCALED_RESOLUTION)
