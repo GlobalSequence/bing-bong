@@ -1,5 +1,5 @@
-AUDIO BOARD BOM,,,
 Reference,Value,Footprint,Qty
+AUDIO BOARD BOM,,,
 C1,1u,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1
 "C2,C3",10u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,2
 "C4,C5,C9,C10,C11",100n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,5
