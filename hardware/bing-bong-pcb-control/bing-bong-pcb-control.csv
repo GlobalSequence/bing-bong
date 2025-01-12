@@ -1,0 +1,6 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"J1,J2,J3,J4,J5,J6","~","~","Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","6",""
+"J8,J9","Conn_01x08_Pin","~","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","2",""
+"RV1,RV5,RV6,RV7","10k","~","Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical","4",""
+"SW1","SW_Push","~","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB","1",""
+"SW2","SW_SPDT","~","SPDT SPST Toggle Switch THIS ONE:SW_Toggle_Blue_wSlots","1",""
