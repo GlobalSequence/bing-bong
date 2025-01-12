@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.5"
+      "Version": "8.0.7"
     },
-    "CreationDate": "2024-10-13T13:08:00-04:00"
+    "CreationDate": "2025-01-12T12:34:29-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "2024.10.10 Bing Bong Drum Module Audio",
-      "GUID": "32303234-2e31-4302-9e31-302042696e67",
+      "Name": "bing-bong-pcb-audio",
+      "GUID": "62696e67-2d62-46f6-9e67-2d7063622d61",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-F_Cu.gbr",
+      "Path": "bing-bong-pcb-audio-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-B_Cu.gbr",
+      "Path": "bing-bong-pcb-audio-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-F_Paste.gbr",
+      "Path": "bing-bong-pcb-audio-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-B_Paste.gbr",
+      "Path": "bing-bong-pcb-audio-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-F_Silkscreen.gbr",
+      "Path": "bing-bong-pcb-audio-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-B_Silkscreen.gbr",
+      "Path": "bing-bong-pcb-audio-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-F_Mask.gbr",
+      "Path": "bing-bong-pcb-audio-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-B_Mask.gbr",
+      "Path": "bing-bong-pcb-audio-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module Audio-Edge_Cuts.gbr",
+      "Path": "bing-bong-pcb-audio-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

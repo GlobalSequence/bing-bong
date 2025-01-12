@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
-%TF.CreationDate,2024-10-13T13:08:00-04:00*%
-%TF.ProjectId,2024.10.10 Bing Bong Drum Module Audio,32303234-2e31-4302-9e31-302042696e67,rev?*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-01-12T12:34:29-05:00*%
+%TF.ProjectId,bing-bong-pcb-audio,62696e67-2d62-46f6-9e67-2d7063622d61,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-13 13:08:00*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-01-12 12:34:29*
 %MOMM*%
 %LPD*%
 G01*
@@ -45,6 +45,12 @@ G04 Aperture macros list end*
 %ADD23R,1.905000X2.000000*%
 %ADD24O,1.905000X2.000000*%
 G04 APERTURE END LIST*
+D10*
+%TO.C,R21*%
+X154559000Y-77841000D03*
+D11*
+X162179000Y-77841000D03*
+%TD*%
 D10*
 %TO.C,R9*%
 X132969000Y-91811000D03*
@@ -139,12 +145,6 @@ D10*
 X145074000Y-121021000D03*
 X150074000Y-121021000D03*
 %TD*%
-%TO.C,R21*%
-X154559000Y-77841000D03*
-D11*
-X162179000Y-77841000D03*
-%TD*%
-D10*
 %TO.C,R1*%
 X158496000Y-46091000D03*
 D11*
