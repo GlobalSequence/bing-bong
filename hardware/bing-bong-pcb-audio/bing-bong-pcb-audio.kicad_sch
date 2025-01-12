@@ -8433,7 +8433,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "300k"
 			(at 84.074 123.952 90)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "300k"
 			(at 84.074 89.662 90)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "300k"
 			(at 84.074 55.372 90)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "300k"
 			(at 84.074 21.082 90)
 			(effects
 				(font
