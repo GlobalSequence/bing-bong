@@ -1,27 +1,3 @@
-- [[#Intro|Intro]]
-- [[#Features|Features]]
-- [[#Synthesis Engines|Synthesis Engines]]
-	- [[#Synthesis Engines#Phase Modulation|Phase Modulation]]
-		- [[#Phase Modulation#Overview|Overview]]
-		- [[#Phase Modulation#Parameters|Parameters]]
-			- [[#Parameters#Carrier|Carrier]]
-			- [[#Parameters#Modulator|Modulator]]
-			- [[#Parameters#Pitch Mod|Pitch Mod]]
-			- [[#Parameters#Decay|Decay]]
-	- [[#Synthesis Engines#Physical Modeling|Physical Modeling]]
-		- [[#Physical Modeling#Overview|Overview]]
-		- [[#Physical Modeling#Parameters|Parameters]]
-			- [[#Parameters#Cutoff|Cutoff]]
-			- [[#Parameters#Spread|Spread]]
-			- [[#Parameters#Q|Q]]
-			- [[#Parameters#Decay|Decay]]
-- [[#DIY|DIY]]
-	- [[#DIY#DISCLAIMER|DISCLAIMER]]
-	- [[#DIY#Build Guide|Build Guide]]
-		- [[#Build Guide#Software flashing|Software flashing]]
-		- [[#Build Guide#PCB Ordering|PCB Ordering]]
-		- [[#Build Guide#Mounting the MCU board|Mounting the MCU board]]
-
 ## Intro
 
 Bing Bong is a digital drum synthesizer module for Eurorack synthesizers which generates percussive sounds using two different synthesis methods:
