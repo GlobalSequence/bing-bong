@@ -1,30 +1,35 @@
-Reference,Value,Footprint,Qty
-AUDIO BOARD BOM,,,
-C1,1u,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1
-"C2,C3",10u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,2
-"C4,C5,C9,C10,C11",100n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,5
-C6,4.7u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1
-C7,100p,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1
-C8,1n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1
-"D1,D2,D3,D4,D5",BAT85,Diode_THT:D_A-405_P7.62mm_Horizontal,5
-J1,Eurorack Power,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,1
-"J2,J3",Conn_01x08_Pin,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,2
-Q1,2N3904,Package_TO_SOT_THT:TO-92L_Inline_Wide,1
-"R1,R9,R12,R14,R16,R20,R22,R26,R28",100k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,9
-"R2,R4,R7,R8,R15,R17,R21,R23,R27,R29",10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10
-R3,2.2k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1
-R5,33k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1
-"R6,R10,R18,R24,R30",1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,5
-"R11,R13,R19,R25",300k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4
-U1,SeeeduinoXIAO RA4M1,Breakout Boards:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM,1
-U2,L7805,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,1
-U3,TL071,Package_DIP:DIP-8_W7.62mm_Socket,1
-U4,TL074,Package_DIP:DIP-14_W7.62mm_Socket,1
-U5,MCP6004,Package_DIP:DIP-14_W7.62mm_Socket,1
-,,,
-CONTROL BOARD BOM,,,
-"J1,J2,J3,J4,J5,J6",~,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6
-"J8,J9",Conn_01x08_Pin,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,2
-"RV1,RV5,RV6,RV7",10k,Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical,4
-SW1,SW_Push,Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB,1
-SW2,SW_SPDT,SPDT SPST Toggle Switch THIS ONE:SW_Toggle_Blue_wSlots,1
+Reference,Value,Footprint,Qty,Notes
+AUDIO BOARD BOM,,,,
+C1,1u,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
+"C2,C3",10u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,2,
+"C4,C5,C9,C10,C11",100n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,5,
+C6,4.7u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1,
+C7,100p,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
+C8,1n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
+"D1,D2,D3,D4,D5",BAT85,Diode_THT:D_A-405_P7.62mm_Horizontal,5,
+J1,Eurorack Power,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,1,
+"J2,J3",Conn_01x08_Pin,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,2,Female pin headers
+Q1,2N3904,Package_TO_SOT_THT:TO-92L_Inline_Wide,1,
+"R1,R9,R12,R14,R16,R20,R22,R26,R28",100k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,9,
+"R2,R4,R7,R8,R15,R17,R21,R23,R27,R29",10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10,
+R3,2.2k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,
+R5,33k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,
+"R6,R10,R18,R24,R30",1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,5,
+"R11,R13,R19,R25",300k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4,
+U1,SeeeduinoXIAO RA4M1,Breakout Boards:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM,1,Direct link: https://www.seeedstudio.com/Seeed-XIAO-RA4M1-p-5943.html
+U2,L7805,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,1,
+U3,TL071,Package_DIP:DIP-8_W7.62mm_Socket,1,
+U4,TL074,Package_DIP:DIP-14_W7.62mm_Socket,1,
+U5,MCP6004,Package_DIP:DIP-14_W7.62mm_Socket,1,
+,,16 male pin headers,1,
+OPTIONAL,,,,
+,Conn_01x07,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,2,Female pin headers
+,,14 male pin headers,1,
+,,,,
+,,,,
+CONTROL BOARD BOM,,,,
+"J1,J2,J3,J4,J5,J6",~,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6,
+"J8,J9",Conn_01x08_Pin,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,2,
+"RV1,RV5,RV6,RV7",10k,Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical,4,
+SW1,SW_Push,Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB,1,
+SW2,SW_SPDT,SPDT SPST Toggle Switch THIS ONE:SW_Toggle_Blue_wSlots,1,
