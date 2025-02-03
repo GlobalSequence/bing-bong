@@ -84,3 +84,8 @@ The hardware/gerbers folder contains three separate zip files, for each pcb of t
 The Xiao RA4M1 has castellated holes, allowing for the board to be mounted directly to the PCB, but I recommend instead using the optional 1x7 female pin headers marked as OPTIONAL in the BOM. 
 
 This saves you from the headache of having to desolder the whole thing if anything ever goes wrong with the chip, and comes at the cost of the module being a little taller, but it's ultimately up to you. 
+
+## Errata
+This section serves as a TODO to me and a 'just so you know' to you.
+
+- The mounting holes are spaced a bit too narrow, so if your Eurorack rails are fixed, you might have to widen the holes with a dremel or drill, or make the edits manually in KiCad. I plan to update the faceplate with oval mounting holes when there's time. 
