@@ -7,6 +7,8 @@ Bing Bong is a digital drum synthesizer module for Eurorack synthesizers which g
 
 This module is intended to offer a versatile array of sounds ranging anywhere from organic substrates to purely synthesized tones. With a wide frequency range, it can fill many roles in an electronic drum kit. Both atonal and tonal sounds can be produced, ranging anywhere from quick transient bursts to long sustained sounds. 
 
+## Block Diagram
+
 [<img src="block_diagram.png">](https://github.com/GlobalSequence/bing-bong/blob/master/block_diagram.png)
 
 ## Features
