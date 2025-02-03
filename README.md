@@ -1,3 +1,5 @@
+[<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
+
 ## Intro
 
 Bing Bong is a digital drum synthesizer module for Eurorack synthesizers which generates percussive sounds using two different synthesis methods:
