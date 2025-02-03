@@ -1,9 +1,9 @@
-Reference,Value,Footprint,Qty,Notes
+Reference,Value,Footprint - Note: footprint sizes are not important.,Qty,Notes
 AUDIO BOARD BOM,,,,
 C1,1u,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
 "C2,C3",10u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,2,
 "C4,C5,C9,C10,C11",100n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,5,
-C6,4.7u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,1,
+C6,4.7u - Bipolar Audio Cap,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm - AUDIO CAPACITOR,1,"Requires bipolar audio capacitor, not normal electrolytic or ceramic capacitors. "
 C7,100p,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
 C8,1n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,
 "D1,D2,D3,D4,D5",BAT85,Diode_THT:D_A-405_P7.62mm_Horizontal,5,
@@ -25,7 +25,6 @@ U5,MCP6004,Package_DIP:DIP-14_W7.62mm_Socket,1,
 OPTIONAL,,,,
 ,Conn_01x07,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,2,Female pin headers
 ,,14 male pin headers,1,
-,,,,
 ,,,,
 CONTROL BOARD BOM,,,,
 "J1,J2,J3,J4,J5,J6",~,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6,
