@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
-%TF.CreationDate,2024-10-13T12:49:13-04:00*%
-%TF.ProjectId,2024.10.10 Bing Bong Drum Module CONTROL,32303234-2e31-4302-9e31-302042696e67,rev?*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-02-18T18:38:33-05:00*%
+%TF.ProjectId,bing-bong-pcb-control,62696e67-2d62-46f6-9e67-2d7063622d63,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-13 12:49:13*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-02-18 18:38:33*
 %MOMM*%
 %LPD*%
 G01*

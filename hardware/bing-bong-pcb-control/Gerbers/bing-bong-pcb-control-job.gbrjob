@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.5"
+      "Version": "8.0.7"
     },
-    "CreationDate": "2024-10-13T12:49:13-04:00"
+    "CreationDate": "2025-02-18T18:38:33-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "2024.10.10 Bing Bong Drum Module CONTROL",
-      "GUID": "32303234-2e31-4302-9e31-302042696e67",
+      "Name": "bing-bong-pcb-control",
+      "GUID": "62696e67-2d62-46f6-9e67-2d7063622d63",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-F_Cu.gbr",
+      "Path": "bing-bong-pcb-control-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-B_Cu.gbr",
+      "Path": "bing-bong-pcb-control-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-F_Paste.gbr",
+      "Path": "bing-bong-pcb-control-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-B_Paste.gbr",
+      "Path": "bing-bong-pcb-control-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-F_Silkscreen.gbr",
+      "Path": "bing-bong-pcb-control-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-B_Silkscreen.gbr",
+      "Path": "bing-bong-pcb-control-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-F_Mask.gbr",
+      "Path": "bing-bong-pcb-control-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-B_Mask.gbr",
+      "Path": "bing-bong-pcb-control-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "2024.10.10 Bing Bong Drum Module CONTROL-Edge_Cuts.gbr",
+      "Path": "bing-bong-pcb-control-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
