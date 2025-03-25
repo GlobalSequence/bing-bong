@@ -1,11 +1,11 @@
-[<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
-
 ## ATTENTION PLEASE READ
 If you have downloaded the PCBs for Bing Bong before 2025.03.25, there is an error where the Seeeduino Xiao board has SMT pads instead of THT pads. This causes the CV input to not connect to the analog pins on the Xiao board. 
 
 The fix to this error is in progress. The repository has been updated with the fixed PCBs, and I am currently awaiting the new PCBs to confirm the fix. 
 
 If you have ordered a Bing Bong with the SMT pads instead of the THT pads, you can solder jumper wires to the following pins to the following components on the board which will connect the CV. 
+
+[<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
 
 Pin 2 - D2 or R10
 Pin 3 - D3 or R18
