@@ -6499,7 +6499,7 @@
 			)
 		)
 	)
-	(global_label "A4"
+	(global_label "A5"
 		(shape output)
 		(at 153.67 142.24 0)
 		(fields_autoplaced yes)
@@ -6511,7 +6511,7 @@
 		)
 		(uuid "0d4ea25f-fa39-4504-81c1-7ef853e3a683")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.2624 142.24 0)
+			(at 158.9533 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7049,7 @@
 			)
 		)
 	)
-	(global_label "A4"
+	(global_label "A5"
 		(shape input)
 		(at 207.518 86.106 180)
 		(fields_autoplaced yes)
@@ -7061,7 +7061,7 @@
 		)
 		(uuid "c6d20f34-7e97-4f91-9a2d-d8d4a15e7aa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.9256 86.106 0)
+			(at 202.2347 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
