@@ -5,14 +5,14 @@ The fix to this error is in progress. The repository has been updated with the f
 
 If you have ordered a Bing Bong with the SMT pads instead of the THT pads, you can solder jumper wires to the following pins to the following components on the board which will connect the CV. 
 
-[<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
-
 Pin 2 - D2 or R10
 Pin 3 - D3 or R18
 Pin 4 - D4 or R24
 Pin 6 - D5 or R30
 
 My apologies for any inconvenience.
+
+[<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
 
 ## Intro
 
