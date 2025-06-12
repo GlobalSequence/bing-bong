@@ -1,17 +1,3 @@
-## ATTENTION PLEASE READ
-If you have downloaded the PCBs for Bing Bong before 2025.03.25, there is an error where the Seeeduino Xiao board has SMT pads instead of THT pads. This causes the CV input to not connect to the analog pins on the Xiao board. 
-
-The fix to this error is in progress. The repository has been updated with the fixed PCBs, and I am currently awaiting the new PCBs to confirm the fix. 
-
-If you have ordered a Bing Bong with the SMT pads instead of the THT pads, you can solder jumper wires to the following pins to the following components on the board which will connect the CV. 
-
-- Pin 2 - D2 or R10
-- Pin 3 - D3 or R18
-- Pin 4 - D4 or R24
-- Pin 6 - D5 or R30
-
-My apologies for any inconvenience.
-
 [<img src="photo.png">](https://github.com/GlobalSequence/bing-bong/blob/master/photo.png)
 
 ## Intro
@@ -103,3 +89,9 @@ This saves you from the headache of having to desolder the whole thing if anythi
 This section serves as a TODO to me and a 'just so you know' to you.
 
 - The mounting holes are spaced a bit too narrow, so if your Eurorack rails are fixed, you might have to widen the holes with a dremel or drill, or make the edits manually in KiCad. I plan to update the faceplate with oval mounting holes when there's time. 
+
+ - If you have downloaded the PCBs for Bing Bong before 2025.03.25, there is an error where the Seeeduino Xiao board has SMT pads instead of THT pads. This causes the CV input to not connect to the analog pins on the Xiao board. If you have ordered a Bing Bong with the SMT pads instead of the THT pads, you can solder jumper wires to the following pins to the following components on the board which will connect the CV. 
+  - Pin 2 - D2 or R10
+  - Pin 3 - D3 or R18
+  - Pin 4 - D4 or R24
+  - Pin 6 - D5 or R30
